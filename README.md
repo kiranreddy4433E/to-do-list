@@ -39,6 +39,7 @@
         }
         #reminderTime{
             border: none;
+            text-decoration: none;
         }
         input[type="text"] {
             border: 1px solid rgb(118, 160, 118);
@@ -92,7 +93,7 @@
     <h1>NOTE YOUR TASKS</h1>
     <div id="cnt">
         <input type="text" id="text" placeholder="Enter your task here" />
-        <input type="time" id="reminderTime" /><br><br>
+        <input type="time" id="reminderTime"><br><br>
         <button id="btn" onclick="addTask()">ADD</button>
         <div id="tasks"></div>
     </div>
